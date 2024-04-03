@@ -1,6 +1,6 @@
 {
   "name": "cp-simple-calculator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Creating a Simple Calculator Using Inquirer, Node.js and Typescript",
   "main": "index.js",
   "type": "module",
