@@ -1,0 +1,19 @@
+{
+  "name": "cp-simple-calculator",
+  "version": "1.0.4",
+  "description": "Creating a Simple Calculator Using Inquirer, Node.js and Typescript",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anas K",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
