@@ -5,13 +5,13 @@ const answer = await inquirer.prompt([{ message: "Enter First Number", type: "nu
     { message: "Select Operation you want to perform: ", type: "list", name: "operator", choices: ["Add", "Sub", "Div", "Mul"] }
 ]);
 if (answer.operator === "Add") {
-    console.log(`${answer.num1} + ${answer.num2} = ${answer.num1 + answer.num2}`);
+    console.log(`==> ${answer.num1} + ${answer.num2} = ${answer.num1 + answer.num2}`);
 }
 else if (answer.operator === "Sub") {
-    console.log(`${answer.num1} - ${answer.num2} = ${answer.num1 - answer.num2}`);
+    console.log(`==> ${answer.num1} - ${answer.num2} = ${answer.num1 - answer.num2}`);
 }
 else if (answer.operator === "Div") {
-    console.log(`${answer.num1} / ${answer.num2} = ${answer.num1 / answer.num2}`);
+    console.log(`==> ${answer.num1} / ${answer.num2} = ${answer.num1 / answer.num2}`);
 }
 else
-    console.log(`${answer.num1} * ${answer.num2} = ${answer.num1 * answer.num2}`);
+    console.log(`==> ${answer.num1} * ${answer.num2} = ${answer.num1 * answer.num2}`);
